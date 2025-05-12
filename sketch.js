@@ -25,7 +25,7 @@ function draw() {
   if (predictions.length > 0) {
     const keypoints = predictions[0].scaledMesh;
 
-    stroke(255, 0, 0); // 紅色線條
+    stroke(255, 255, 0); // 紅色線條
     strokeWeight(15); // 線條粗細為15
     noFill();
 
